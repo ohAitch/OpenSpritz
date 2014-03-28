@@ -126,7 +126,7 @@ function spritzify(input){
     var running = true;
     var spritz_timers = new Array();
 
-    document.getElementById("spritz_toggle").addEventListener("click", function() {
+    document.getElementById("spritz_toggle").addEventListener("touchstart", function() {
         if(running) {
             stopSpritz();
         } else {
